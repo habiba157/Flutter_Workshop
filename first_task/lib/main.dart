@@ -23,8 +23,8 @@ void main() {
               ),
             ),
                color: Colors.red,
-               width: 170,
-               height: 408,
+               width: 160,
+               height: 420,
           ),
 
 
@@ -47,8 +47,8 @@ void main() {
                     ),
                   ),
                     color: Colors.green,
-                    width: 120,
-                    height: 120,
+                    width: 130,
+                    height: 130,
 
 
 
@@ -65,8 +65,8 @@ void main() {
                     ),
                   ),
                     color: Colors.blue,
-                    width: 120,
-                    height: 120,
+                    width: 130,
+                    height: 130,
                 )
 
               ],
