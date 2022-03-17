@@ -57,7 +57,13 @@ class _HomeState extends State<Home> {
           builder: (context,snapshot){
             if(snapshot.hasData){
               var myData = snapshot.data as Map;
-              return ListView.builder(
+              return GridView.builder(
+                  gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                    maxCrossAxisExtent: 300,
+                    childAspectRatio: 3/2,
+                    mainAxisSpacing: 20
+                  ),
+
 
                   itemCount :myData['pokemon'].length,
                   itemBuilder: (context, index) => PokeContainer(index,myData['pokemon'][index],
